@@ -33,7 +33,7 @@
     <artifactId>org.mxupdate.eclipse</artifactId>
     <packaging>jar</packaging>
     <version>0.10.0</version>
-    <name>MxUpdate Eclipse Plug-In</name>
+    <name>Java Demo Project</name>
     <url>http://www.mxupdate.org</url>
 
     <description>
