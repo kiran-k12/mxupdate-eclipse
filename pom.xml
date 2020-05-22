@@ -96,11 +96,11 @@
 
     <properties>
         <!-- correct encoding -->
+	    <maven.compiler.source>11</maven.compiler.source>
+            <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.6</maven.compiler.target>
- 
+    
     </properties>
 
     <dependencies>
@@ -678,8 +678,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
+                    <source>11</source>
+                    <target>11</target>
                     <encoding>UTF-8</encoding>
                     <showDeprecation>true</showDeprecation>
                     <showWarnings>true</showWarnings>
@@ -888,7 +888,7 @@
                 <configuration>
                     <use>false</use>
                     <show>private</show>
-                    <source>1.5</source>
+                    <source>11</source>
                     <doctitle>&lt;h1&gt;MxUpdate Eclipse Plug-In V${project.version}&lt;/h1&gt;</doctitle>
                     <windowtitle>MxUpdate Eclipse Plug-In V${project.version}</windowtitle>
                     <author/>
